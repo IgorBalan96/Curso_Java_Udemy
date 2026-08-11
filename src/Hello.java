@@ -24,14 +24,34 @@ public class Hello {
         }
 
         int novoValor = 50;
-        if (novoValor ==50){
+        if (novoValor == 50) {
             System.out.println("Isto é verdadeiro");
         }
 
         boolean isCar = false;
-        if (isCar){
+        if (isCar) {
             System.out.println("Isto nao é suposto acontecer");
         }
+
+        String makeOfCar = "Volkswagen";
+        boolean isDomestic = (makeOfCar != "Volkswagen");
+       // boolean isDomestic = makeOfCar == "Volkswagen" ? false : true;
+
+        if (isDomestic){
+            System.out.println("This car is domestic to our country");
+        }
+
+        String s = (isDomestic) ? "This car is domestic" : "This car is imported";
+
+        System.out.println(s);
+
+
+        //        int idade = 20;
+//        String estatuto = (idade >=18) ? "Maior de idade" : "Menor de idade";
+//        System.out.println(estatuto);
+
+        //boolean isDomestic = (makeOfCar != "Volkswagen");
+
 
     }
 }
