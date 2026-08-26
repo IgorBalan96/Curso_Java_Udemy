@@ -1,15 +1,15 @@
 public class SecondsAndMinutes {
 
 
-    public static void main (String [] args) {
-    int segundos = 4000;
+    public static void main(String[] args) {
+        int segundos = 4000;
 
-    System.out.println(getDurationString(3945));
-    System.out.println(getDurationString(65,45));
+        System.out.println(getDurationString(3945));
+        System.out.println(getDurationString(65, 45));
     }
 
-    public static String getDurationString (int seconds){
-        //if (seconds >= 0){
+    public static String getDurationString(int seconds) {
+        if (seconds >= 0) {
 
 //            int horas = seconds / 3600;
 //            int restoHoras = seconds % 3600;
@@ -19,27 +19,27 @@ public class SecondsAndMinutes {
 //            return horas + "h " + minutos + "m " + restanteSegundos + "s";
 
 
-            int minutes = seconds / 60;
-            return getDurationString(minutes,seconds);
+            int minutos = seconds / 60;
+            int segundos = seconds % 60;
+            return getDurationString(minutos, segundos);
 
 
-
-//        }else
-//            return "Invalid numbers!!";
+        } else
+            return "Invalid numbers!!";
 
     }
 
-    public static String getDurationString (int minutes, int seconds){
+    public static String getDurationString(int minutes, int seconds) {
 
-        if (minutes >= 0 && (seconds >= 0 && seconds <=59)){
+        if (minutes >= 0 && (seconds >= 0 && seconds <= 59)) {
 
             int horas = minutes / 60;
             int remainingMinutes = minutes % 60;
-            int remainingSeconds = seconds % 60;
 
-            return horas + "h " + remainingMinutes + "m " + remainingSeconds + "s";
 
-        }else
+            return horas + "h " + remainingMinutes + "m " + seconds + "s";
+
+        } else
             return "Invalid numbers!!";
     }
 }
