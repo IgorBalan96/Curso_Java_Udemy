@@ -25,7 +25,10 @@ public class WhileLoop {
                 continue;
             }
             System.out.print(number + "_");
+            int exemplo =0;
         }
+
+        System.out.println(exemplo);
     }
 }
 
