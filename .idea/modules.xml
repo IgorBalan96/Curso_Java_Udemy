@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/Classes/BankAccount/BankAccount.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ciclos/Ciclos.iml" filepath="$PROJECT_DIR$/Ciclos/Ciclos.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ClassPart1/ClassPart1.iml" filepath="$PROJECT_DIR$/ClassPart1/ClassPart1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/CursoUdemy.iml" filepath="$PROJECT_DIR$/HelloWorld/CursoUdemy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Customer/Customer.iml" filepath="$PROJECT_DIR$/Customer/Customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Classes.iml" filepath="$PROJECT_DIR$/Classes/Classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introducao/HelloWorld/CursoUdemy.iml" filepath="$PROJECT_DIR$/Introducao/HelloWorld/CursoUdemy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Customer/Customer.iml" filepath="$PROJECT_DIR$/Classes/Customer/Customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Metodos/Exercicio/Exercicio.iml" filepath="$PROJECT_DIR$/Metodos/Exercicio/Exercicio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" filepath="$PROJECT_DIR$/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Inheretance/Inheretance.iml" filepath="$PROJECT_DIR$/Inheretance/Inheretance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introducao/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" filepath="$PROJECT_DIR$/Introducao/IfKeywordAndCodeBlocks/IfKeywordAndCodeBlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Inheretance/Inheretance.iml" filepath="$PROJECT_DIR$/Classes/Inheretance/Inheretance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/InheritanceChallenge/InheritanceChallenge.iml" filepath="$PROJECT_DIR$/Classes/InheritanceChallenge/InheritanceChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introducao/Introducao.iml" filepath="$PROJECT_DIR$/Introducao/Introducao.iml" />
       <module fileurl="file://$PROJECT_DIR$/Metodos/Metodos.iml" filepath="$PROJECT_DIR$/Metodos/Metodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" filepath="$PROJECT_DIR$/ReadingUserInput/ReadingUserInput.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Student/Student.iml" filepath="$PROJECT_DIR$/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/Student/Student.iml" filepath="$PROJECT_DIR$/Classes/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes/TheObjectClass/TheObjectClass.iml" filepath="$PROJECT_DIR$/Classes/TheObjectClass/TheObjectClass.iml" />
     </modules>
   </component>
 </project>
